@@ -1,0 +1,17 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: flex-start;
+    padding: 3rem;
+  }
+
+.blogitem3{
+    cursor: pointer;
+}
+
+.blogitemp{
+    max-width: 45vw;
+}
