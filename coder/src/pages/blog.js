@@ -20,8 +20,9 @@ function blog() {
         {blogs.map((blogItem) => {
           return (
             <div className="blogItem" key={blogItem.slug}>
-              <Link href={`/blogpost/${blogItem.slug}`} />
+              <Link href={`/blogpost/${blogItem.slug}`} >
               <h1 className={styles.blogitem3}>{blogItem.title}</h1>
+              </Link>
               <p className={styles.blogitemp}>{blogItem.content.substr(0,140)}...</p>
             </div>
           )
