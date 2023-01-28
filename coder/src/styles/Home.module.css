@@ -289,3 +289,11 @@
   list-style: none;
   font-weight: bold;
 }
+
+.myImg {
+  border-radius: 10px;
+}
+
+.imagewrap{
+  padding: 10px;
+}

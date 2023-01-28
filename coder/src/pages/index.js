@@ -17,16 +17,19 @@ export default function Home() {
       </Head>
       <nav className={styles.mainnav}>
         <ul>
-          <Link href='/'><a><li>Home</li></a></Link>
-          <Link href='/about'><a><li>About</li></a></Link>
-          <Link href='/blog'><a><li>Blog</li></a></Link>
-          <Link href='/contact'><a><li>Contact</li></a></Link>
+          <Link href='/'><li>Home</li></Link>
+          <Link href='/about'><li>About</li></Link>
+          <Link href='/blog'><li>Blog</li></Link>
+          <Link href='/contact'><li>Contact</li></Link>
         </ul>
       </nav>
       <main className={styles.main}>
         <h1 className={styles.title}>
           Hunting Coder
         </h1>
+        <div className={styles.imagewrap}>
+          <Image className={styles.myImg} src='/homeimg.avif' width={237} height={158} />
+        </div>
         <div className="blogs">
           <h2>Popular blogs</h2>
           <div className="blogItem">
